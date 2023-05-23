@@ -56,6 +56,14 @@ Diabolic Drive hardware was squeezed to get highest level of capabilities out of
 </p>
 
 - plug in your Diabolic Drive to a USB port will raise only one USB plug in sound just like the notification you hear when connecting a normal Flash Drive so your victim will never think there is more than one device connected to his computer at the same time .
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=JKw52I0WJpA">
+    <img alt="Diabolic Drive Stealthy Feature 'audio notification ping once !' " src="https://i3.ytimg.com/vi/JKw52I0WJpA/hqdefault.jpg" width="480">
+    <br>
+    <b>Watch Diabolic Drive Stealthy Feature Demo</b>
+  </a>
+</p>
+
 - a stealthy mode that can be preprogrammed and makes your computer read the ATMEGA32U4 as one HID device hiding its identity of running an Arduino Bootloader and its COM port from the WINDOWS device manager
 ## Firmware Supported
 Diabolic Drive supports every firmware out there runs on the same 2 chips ( ATMEGA32U4 , ESP8266EX ) both Serial and I2C connection between the 2 chips is fully supported .. for example out of these open source firmware is : 
@@ -74,7 +82,15 @@ Diabolic Drive supports every firmware out there runs on the same 2 chips ( ATME
 ### ATMEGA32U4
    + Uploading Arduino Sketches : by directly plug your Diabolic Drive into the computer as ATMEGA32U4 has native USB support through USB transceiver built into it that handles the USB connection .
 ### Access ATMEGA32U4 Bootloader
-   + This gives you the full control over ATMEGA32U4 and can be accessed through USB3.0 defined pins .. not forget to mention Diabolic Drive uses Arduino Leonardo          Bootloader 
+   + This is a unique and never existed before way by UNIT 72784  That gives you the full control over ATMEGA32U4 of a Diabolic Drive through USB3.0 defined pins .. not forget to mention Diabolic Drive uses Arduino Leonardo Bootloader 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=L3nXUaHzDiY">
+    <img alt="Diabolic Drive Access ATMEGA32U4 Bootloader through USB3.0 defined pins POC " src="https://i3.ytimg.com/vi/L3nXUaHzDiY/maxresdefault.jpg" width="640">
+    <br>
+    <b>Watch the POC Demo</b>
+  </a>
+</p>
+
 
 ## Technical Specifications
 - ATMEGA 32U4 running at 16MHz and 5V .
