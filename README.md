@@ -1,6 +1,10 @@
 # Diabolic Drive
 <p align="center">
-<img alt="Diabolic Drive Logo" src="img/logo.png" width="640">
+  <a href="https://www.youtube.com/watch?v=nSBRwmqkTx8">
+    <img alt="Diabolic Drive Teaser | A True Red Teaming Device That will Keep Evolving" src="https://i3.ytimg.com/vi/nSBRwmqkTx8/maxresdefault.jpg" width="640">
+    <br>
+    <b>Watch Diabolic Drive Teaser</b>
+  </a>
 </p>
 
 ---
@@ -16,10 +20,12 @@
 * [Technical Specifications](#technical-specifications)
 
 ## About
-<p align="center">
-<img alt="Diabolic Drive thumbnail " src="img/thumbnail.jpg">
-</p>
+
 Diabolic Drive is a Red Teaming and penetration testing tool that injects keystrokes wirelessly .. in addition to its innocent look of a regular Flash Drive it also functions the same as it looks with a real capacity of 64 GB making it stealthy and not suspicious when plugged in and gives it the ability to be used in countless Social Engineering scenarios .. reviving the Hotplug Attack Vector , revolutionizing and introducing a new concept of bad USBs .
+
+<p align="center">
+<img alt="Diabolic-Drive-PCB" src="img/PCB.jpg" width="480" >
+</p>
 
 ---
 
@@ -27,8 +33,10 @@ Diabolic Drive is a Red Teaming and penetration testing tool that injects keystr
 As for USB devices what is the most common device that has higher chances for a user to plug it in ? putting a Flash Drive with a cable in comparison for sure a Flash Drive will easily win .. thinking about how many times I plugged a cable into my laptop I only remember a few times compared to how many times I plugged a real Flash Drive into it which is near to million times ! but taking only the Form Factor of a Flash Drive is really silly and will not trick an adult ! so I implemented a real flash storage memory of 64 GB inside the heart of Diabolic Drive so when you plug it in you can interact with a real flash storage that can be used completely as a normal flash drive would be .. giving you unlimited possible social engineering scenarios to trick the targeted client to do what is intended , planned by you to do .
 
 <p align="center">
-<img alt="Diabolic-Drive-PCB" src="img/PCB.jpg" width="480" >
+<img alt="Diabolic Drive vs genuine flash drive" src="img/Diabolic-Drive-vs-genuine-flash-drive-PCB.jpg" width="640" >
 </p>
+
+***Diabolic Drive on the left, standard flash drive on the right**
 
 ## Features
 Diabolic Drive hardware was squeezed to get highest level of capabilities out of it with many stealthy features in mind and was designed to give user maximum openness , flexibility , control over it and finally to be future-proofed .
@@ -45,6 +53,10 @@ Diabolic Drive hardware was squeezed to get highest level of capabilities out of
    + mouse control
    + ASCII characters
    + Serial Data Exfiltration to the ESP memory .
+ <p align="center">
+<img alt="Diabolic Drive in action" src="img/Diabolic-Drive-in-action.gif"  width="720">
+</p>
+
 ## How Stealthy can Diabolic Drive go ?
 **there are 3 main features that make Diabolic Drive very Stealthy**
 - PCB design is in Universal Flash Drive PCB shape .. for any person with a good security awareness plug in a generic look or very old fashioned USB 2.0 flash drive ( also has no embedded flash storage on it by the way ) might be a big problem so I decided to go with the trendy shapes of modern look USB3.0 flash drives and the most common available models , doing lots of recon getting many many models disassembled , identified the PCB dimensions and finally I managed to get a UNIVERSAL PCB shape that I need to design my PCB identical to it to help the Diabolic Drive be much more stealthy hiding itself in many many common USB 3.0 flash drive enclosures out there ! 
@@ -82,7 +94,7 @@ Diabolic Drive supports every firmware out there runs on the same 2 chips ( ATME
 ### ATMEGA32U4
    + Uploading Arduino Sketches : by directly plug your Diabolic Drive into the computer as ATMEGA32U4 has native USB support through USB transceiver built into it that handles the USB connection .
 ### Access ATMEGA32U4 Bootloader
-   + This is a unique and never existed before way by UNIT 72784  That gives you the full control over ATMEGA32U4 of a Diabolic Drive through USB3.0 defined pins .. not forget to mention Diabolic Drive uses Arduino Leonardo Bootloader 
+   + This is a unique and never existed before way by UNIT 72784  That gives you the full control over ATMEGA32U4 of a Diabolic Drive through USB3.0 defined pins .. The Diabolic Drive uses a modified version of the Caterina-promicro16 bootloader by default, and is also compatible with the Arduino Leonardo bootloader.
 <p align="center">
   <a href="https://www.youtube.com/watch?v=L3nXUaHzDiY">
     <img alt="Diabolic Drive Access ATMEGA32U4 Bootloader through USB3.0 defined pins POC " src="https://i3.ytimg.com/vi/L3nXUaHzDiY/maxresdefault.jpg" width="640">
