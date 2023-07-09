@@ -21,7 +21,7 @@
 
 ## About
 
-Diabolic Drive is a Red Teaming and penetration testing tool that injects keystrokes wirelessly .. in addition to its innocent look of a regular Flash Drive it also functions the same as it looks with a real capacity of 64 GB making it stealthy and not suspicious when plugged in and gives it the ability to be used in countless Social Engineering scenarios .. reviving the Hotplug Attack Vector , revolutionizing and introducing a new concept of bad USBs .
+Diabolic Drive is a Red Teaming and penetration testing tool that injects keystrokes wirelessly. In addition to its innocent look of a regular Flash drive, it also functions the same as it looks with a real capacity of 64 GB, making it stealthy and not suspicious when plugged in and giving it the ability to be used in countless Social Engineering scenarios, reviving the Hotplug Attack Vector, revolutionizing the industry, and introducing a new concept of bad USBs.
 
 <p align="center">
 <img alt="Diabolic-Drive-PCB" src="img/PCB.jpg" width="480" >
@@ -30,8 +30,7 @@ Diabolic Drive is a Red Teaming and penetration testing tool that injects keystr
 ---
 
 ## Why Diabolic Drive ?
-As for USB devices what is the most common device that has higher chances for a user to plug it in ? putting a Flash Drive with a cable in comparison for sure a Flash Drive will easily win .. thinking about how many times I plugged a cable into my laptop I only remember a few times compared to how many times I plugged a real Flash Drive into it which is near to million times ! but taking only the Form Factor of a Flash Drive is really silly and will not trick an adult ! so I implemented a real flash storage memory of 64 GB inside the heart of Diabolic Drive so when you plug it in you can interact with a real flash storage that can be used completely as a normal flash drive would be .. giving you unlimited possible social engineering scenarios to trick the targeted client to do what is intended , planned by you to do .
-
+As for USB devices, what is the most common device that has a higher chance of being plugged in by a user? Putting a Flash Drive with a cable in comparison, for sure, a Flash Drive will easily win. Thinking about how many times I plugged a cable into my laptop, I only remember a few times from the Nokia Symbian phones era compared to how many times I plugged a real Flash Drive into it, which is near a million times! But taking only the Form Factor of a Flash Drive is really silly and will not trick an adult! So I implemented a real flash storage memory of 64 GB inside the heart of Diabolic Drive so that when you plug it in, you can interact with a real flash storage that can be used completely as a normal flash drive would be, giving you unlimited possible social engineering scenarios to trick the targeted client to do what is intended or planned by you to do.
 <p align="center">
 <img alt="Diabolic Drive vs genuine flash drive" src="img/Diabolic-Drive-vs-genuine-flash-drive-PCB.jpg" width="640" >
 </p>
@@ -40,15 +39,14 @@ As for USB devices what is the most common device that has higher chances for a 
 
 ## How Stealthy can Diabolic Drive go ?
 **there are 4 main features that make Diabolic Drive very Stealthy**
-- **PCB design is in Universal Flash Drive PCB shape** .. for any person with a good security awareness plug in a generic look or very old fashioned USB 2.0 flash drive ( also has no embedded flash storage on it by the way ) might be a big problem so I decided to go with the trendy shapes of modern look USB3.0 flash drives and the most common available models , doing lots of recon getting many many models disassembled , identified the PCB dimensions and finally I managed to get a UNIVERSAL PCB shape that I need to design my PCB identical to it to help the Diabolic Drive be much more stealthy hiding itself in many many common USB 3.0 flash drive enclosures out there ! 
- 
+- **PCB design is in Universal Flash Drive PCB shape.** For any person with good security awareness, plugging in a generic-looking or very old-fashioned USB 2.0 flash drive (which also has no embedded flash storage on it by the way) might be a big problem, so I decided to go with the trendy shapes of modern-looking USB3.0 flash drives and the most common available models. I did lots of recon, got many many models disassembled, identified the PCB dimensions, and finally managed to get a Universal PCB shape that I needed to design my PCB identical to it to help the Diabolic Drive be much more stealthy, hiding itself in many common USB 3.0 flash drive enclosures out there!
  **Disclaimer :  Enclosure in image below is for demonstration purposes only !**
 
 <p align="center">
 <img alt="Diabolic Drive hidden in enclosure" src="img/Diabolic Drive hidden in enclosure .jpg"  width="516">
 </p>
 
-- **plug in your Diabolic Drive to a USB port will raise only one USB plug in sound** just like the notification you hear when connecting a normal Flash Drive so your victim will never think there is more than one device connected to his computer at the same time .
+- **plug in your Diabolic Drive to a USB port will raise only one USB plug in sound** When Diabolic Drive is plugged into a host computer, it acts just like a regular USB flash drive, including any audio notifications you would normally hear when plugging in a new USB device. Your computer will identify Diabolic Drive as a flash drive, HID device, and virtual COM port simultaneously, but will only trigger an audio notification once, which is how a standard drive would behave. 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=JKw52I0WJpA">
     <img alt="Diabolic Drive Stealthy Feature 'audio notification ping once !' " src="https://i3.ytimg.com/vi/JKw52I0WJpA/hqdefault.jpg" width="640">
@@ -57,8 +55,7 @@ As for USB devices what is the most common device that has higher chances for a 
   </a>
 </p>
 
-- **Hardware IDs are spoofable** Diabolic Drive Flash storage hardware IDs can be spoofed for maximum stealthiness this IDs include ( VID, PID, Vendor info, Product info, Rev info, Vendor string, Product String, SN ) this make distinguishing of Diabolic Drive very difficult!
-
+- **Hardware IDs are spoofable.** Diabolic Drive Flash storage hardware IDs can be spoofed for maximum stealthiness. These IDs include VID, PID, Vendor info, Product info, Rev info, Vendor string, Product String, and SN. This makes distinguishing Diabolic Drive very difficult!
 <p align="center">
   <a href="https://www.youtube.com/watch?v=iDItm9KI_z4">
     <img alt=" Diabolic Drive in 'Stealth mode,' with spoofed hardware IDs  " src="https://i3.ytimg.com/vi/iDItm9KI_z4/maxresdefault.jpg" width="640">
@@ -67,10 +64,9 @@ As for USB devices what is the most common device that has higher chances for a 
   </a>
 </p>
 
-- a **stealthy mode** that can be preprogrammed and makes your computer read the ATMEGA32U4 as one HID device hiding its identity of running an Arduino Bootloader and its COM port from the WINDOWS device manager
-
+- a **stealthy mode** that can be preprogrammed and makes your computer read the ATMEGA32U4 as a HID device only, hiding its identity of running an Arduino Bootloader and its COM port from the Windows device manager, which enhances Diabolic Drive's covert usability.
 ## Features
-Diabolic Drive hardware was squeezed to get highest level of capabilities out of it with many stealthy features in mind and was designed to give user maximum openness , flexibility , control over it and finally to be future-proofed .
+Diabolic Drive hardware was squeezed to get the highest level of capabilities out of it with many stealthy features in mind and was designed to give the user maximum openness, flexibility, control over it, and finally, future-proofed.
 - **Features ready** :
   + ATMEGA32U4 and ESP8266 are connected to each other over both Serial and I2C protocols which means that Diabolic Drive supports running almost every Open-Source    software out there that is built for the same 2 chips . ex: WIFI DUCK , WIFI DUCKY, ESPloitV2 ,WHID , supremeDuck and much more ! 
   + Flash Storage supports reading , writing data while firing your payload wirelessly at the same time .
