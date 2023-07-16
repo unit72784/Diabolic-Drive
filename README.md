@@ -43,7 +43,7 @@ As for USB devices, what is the most common device that has a higher chance of b
  **Disclaimer :  Enclosure in image below is for demonstration purposes only !**
 
 <p align="center">
-<img alt="Diabolic Drive hidden in enclosure" src="img/Diabolic Drive hidden in enclosure .jpg"  width="516">
+<img alt="Diabolic Drive hidden in enclosure" src="https://www.crowdsupply.com/img/a325/diabolic-drive-hidden-in-enclosure.jpg"  width="720">
 </p>
 
 - **plug in your Diabolic Drive to a USB port will raise only one USB plug in sound** When Diabolic Drive is plugged into a host computer, it acts just like a regular USB flash drive, including any audio notifications you would normally hear when plugging in a new USB device. Your computer will identify Diabolic Drive as a flash drive, HID device, and virtual COM port simultaneously, but will only trigger an audio notification once, which is how a standard drive would behave. 
@@ -62,6 +62,11 @@ As for USB devices, what is the most common device that has a higher chance of b
     <br>
     <b>Watch Diabolic Drive in "Stealth mode," with spoofed hardware IDs </b>
   </a>
+</p>
+
+**Have a look at the image below. Can you spot which one is Diabolic Drive?**
+<p align="center">
+<img alt="Diabolic Drive's Hardware IDs" src="https://www.crowdsupply.com/img/1871/diabolic-drive-hardware-ids.png"  width="720">
 </p>
 
 - a **stealthy mode** that can be preprogrammed and makes your computer read the ATMEGA32U4 as a HID device only, hiding its identity of running an Arduino Bootloader and its COM port from the Windows device manager, which enhances Diabolic Drive's covert usability.
