@@ -1,5 +1,5 @@
 # Diabolic Drive
-# :skull_and_crossbones: UNIT 72784 is intending to build a unique firmware that's tailored specifically for Diabolic Drive. I believe it will be available by Q1 of 2024  with a ton of features. Stay tuned for it! :ninja::skull_and_crossbones:
+# :skull_and_crossbones: UNIT 72784 is intending to build a unique firmware with a ton of features that's tailored specifically for Diabolic Drive. I believe it will be available by Q1 of 2024. Stay tuned for it! :ninja::skull_and_crossbones:
 <p align="center">
   <a href="https://www.youtube.com/watch?v=nSBRwmqkTx8">
     <img alt="Diabolic Drive Teaser | A True Red Teaming Device That will Keep Evolving" src="https://i3.ytimg.com/vi/nSBRwmqkTx8/maxresdefault.jpg" width="640">
