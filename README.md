@@ -1,5 +1,5 @@
 # Diabolic Drive
-# :skull_and_crossbones: UNIT 72784 is intending to build unique Software with a ton of features that's tailored specifically for Diabolic Drive. I believe it will be available by Q1 of 2024. Stay tuned for it! and feel free to use any of the already existing software until this happens. :) 🥷:skull_and_crossbones:
+# :skull_and_crossbones: UNIT 72784 is intending to build unique Software with a ton of features that's tailored specifically for Diabolic Drive. Get a very early Beta taste [here](https://www.youtube.com/watch?v=t5QmxH-HiyI). I believe it will be available by Q1 of 2024. Stay tuned for it! and feel free to use any of the already existing software until this happens. :) :skull_and_crossbones:
 <p align="center">
   <a href="https://www.youtube.com/watch?v=nSBRwmqkTx8">
     <img alt="Diabolic Drive Teaser | A True Red Teaming Device That will Keep Evolving" src="https://i3.ytimg.com/vi/nSBRwmqkTx8/maxresdefault.jpg" width="640">
@@ -31,7 +31,7 @@ Diabolic Drive is a Red Teaming and penetration testing tool that injects keystr
 ---
 
 ## Why Diabolic Drive ?
-As for USB devices, what is the most common device that has a higher chance of being plugged in by a user? Putting a Flash Drive with a cable in comparison, for sure, a Flash Drive will easily win. Thinking about how many times I plugged a cable into my laptop, I only remember a few times from the Nokia Symbian phones era compared to how many times I plugged a real Flash Drive into it, which is near a million times! But taking only the Form Factor of a Flash Drive is really silly and will not trick an adult! So I implemented a real flash storage memory of 64 GB inside the heart of Diabolic Drive so that when you plug it in, you can interact with a real flash storage that can be used completely as a normal flash drive would be, giving you unlimited possible social engineering scenarios to trick the targeted client to do what is intended or planned by you to do.
+As for USB devices, what is the most common device that has a higher chance of being plugged in by a user? Putting a Flash Drive with a cable in comparison, for sure, a Flash Drive will easily win. Thinking about how many times I plugged a cable into my laptop, I only remember a few times from the Nokia Symbian phones era compared to how many times I plugged a real Flash Drive into it, which is near a million times! But taking only the form factor of a flash drive is a bad idea and will not trick an adult! So I implemented a real flash storage memory of 64 GB inside the heart of Diabolic Drive so that when you plug it in, you can interact with a real flash storage that can be used completely as a normal flash drive would be, giving you unlimited possible social engineering scenarios to trick the targeted client to do what is intended or planned by you to do.
 <p align="center">
 <img alt="Diabolic Drive vs genuine flash drive" src="img/Diabolic-Drive-vs-genuine-flash-drive-PCB.jpg" width="640" >
 </p>
@@ -70,7 +70,11 @@ As for USB devices, what is the most common device that has a higher chance of b
 <img alt="Diabolic Drive's Hardware IDs" src="https://www.crowdsupply.com/img/1871/diabolic-drive-hardware-ids.png"  width="720">
 </p>
 
-- a **stealthy mode** that can be preprogrammed and makes your computer read the ATMEGA32U4 as a HID device only, hiding its identity of running an Arduino Bootloader and its COM port from the Windows device manager, which enhances Diabolic Drive's covert usability.
+- a **stealth mode** that can be preprogrammed and makes your computer read the ATMEGA32U4 as a HID device only, hiding its identity of running an Arduino Bootloader and its COM port from the Windows device manager, which enhances Diabolic Drive's covert usability.
+- the **Spectre status**, which you can learn more about  [here](https://www.crowdsupply.com/unit-72784/diabolic-drive/updates/introducing-spectre-our-latest-stealth-feature).
+
+![spectre thumbnail - Copy](https://github.com/unit72784/Diabolic-Drive/assets/129557291/276c66d2-7709-48eb-9f44-93244987189e)
+
 ## Features
 Diabolic Drive hardware was squeezed to get the highest level of capabilities out of it with many stealthy features in mind and was designed to give the user maximum openness, flexibility, control over it, and finally, future-proofed.
 - **Features ready** :
@@ -108,7 +112,7 @@ Diabolic Drive supports every firmware out there runs on the same 2 chips ( ATME
 ### ATMEGA32U4
    + Uploading Arduino Sketches : by directly plug your Diabolic Drive into the computer as ATMEGA32U4 has native USB support through USB transceiver built into it that handles the USB connection .
 ### Access ATMEGA32U4 Bootloader
-   + This is a unique and never existed before way by UNIT 72784  That gives you the full control over ATMEGA32U4 of a Diabolic Drive through USB3.0 defined pins .. The Diabolic Drive uses a modified version of the Caterina-promicro16 bootloader by default, and is also compatible with the Arduino Leonardo bootloader.
+   + This is a unique and never existed before way by UNIT 72784  That gives you the full control over ATMEGA32U4 of a Diabolic Drive through USB3.0 defined pins .. Diabolic Drive uses a modified version of the Arduino Leonardo bootloader by default and is also compatible with the original Arduino Leonardo bootloader.
 <p align="center">
   <a href="https://www.youtube.com/watch?v=L3nXUaHzDiY">
     <img alt="Diabolic Drive Access ATMEGA32U4 Bootloader through USB3.0 defined pins POC " src="https://i3.ytimg.com/vi/L3nXUaHzDiY/maxresdefault.jpg" width="640">
@@ -121,7 +125,7 @@ Diabolic Drive supports every firmware out there runs on the same 2 chips ( ATME
 ## Technical Specifications
 - ATMEGA 32U4 running at 16MHz and 5V .
 - ESP8266ex running at 160MHZ at 3.3v thanks to LDO Regulator .
-- ESP8266ex has 4MB of memory able to store 4 million characters to save your payloads .
+- ESP8266ex has 4MB of memory able to store millions of characters to save your payloads .
 - High gain 4.1dBi ceramic chip 2.4G Wireless antenna.
-- 64GB Flash Storage with average reading and writing speed of 20MB/s , 10MB/s respectively .
+- 64GB Flash Storage with average reading and writing speed of 20MB/s , 10MB/s respectively. Demo available [here](https://www.youtube.com/watch?v=Hp0QsIaciWE)
 
