@@ -4,7 +4,7 @@
   Password: diabolic_drive 
 </h1>
 
-# :skull_and_crossbones: UNIT 72784 is intending to build unique software with a ton of features that's tailored specifically for Diabolic Drive. Get a very early Beta taste [here](https://www.youtube.com/watch?v=t5QmxH-HiyI). I believe it will be available by the end of Q1 or during Q2 2024. Stay tuned for it! and feel free to use any of the [already existing software](#firmware-supported) until this happens. :) :skull_and_crossbones:
+# :skull_and_crossbones: UNIT 72784 is intending to build unique software with a ton of features that's tailored specifically for Diabolic Drive. Get a very early Beta taste [here](https://www.youtube.com/watch?v=t5QmxH-HiyI). I believe it will be available by the end of Q1 or during Q2 2024. Stay tuned for it! and feel free to use any of the [already existing software](#firmware-supported) or stick to the beta software that comes preloaded with the already-shipped Diabolic Drives. until this happens. :) :skull_and_crossbones:
 <p align="center">
   <a href="https://www.youtube.com/watch?v=nSBRwmqkTx8">
     <img alt="Diabolic Drive Teaser | A True Red Teaming Device That will Keep Evolving" src="https://i3.ytimg.com/vi/nSBRwmqkTx8/maxresdefault.jpg" width="640">
