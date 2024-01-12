@@ -34,7 +34,10 @@
 4. Your Diabolic Drive comes preloaded with a test Ducky script, which I used in the testing phase to check if the Diabolic Drive key stroke injection works properly. No worries about it; it's just a powershell command that retrieves the credentials of the Diabolic Drive access point from your Windows machine if it's already saved and you have connected to it from your computer before.
 5. To access `Settings` along with other menus, click on the 3 horizontal bars icon (top right corner).
 
-<h3> :bangbang:The software that comes preloaded with the already-shipped Diabolic Drive is in a very early beta phase (built on <a href="https://github.com/SpacehuhnTech/WiFiDuck">WiFiDuck</a>) with some modifications to suit the Diabolic Drive and to integrate the Spectre POC feature just to get things up and running. After ensuring all Diabolic Drives are delivered to the backers, I will start working on the software side and adding features to it. :bangbang: </h3> 
+<h3> :bangbang:The software that comes preloaded with the already-shipped Diabolic Drive is in a very early beta phase (built on <a href="https://github.com/SpacehuhnTech/WiFiDuck">WiFiDuck</a>) with some modifications to suit the Diabolic Drive and to integrate the Spectre POC feature just to get things up and running. After ensuring all Diabolic Drives are delivered to the backers, I will start working on the software side and adding features to it. :bangbang: 
+  
+<br>Feel free to subscribe to the <a href="https://www.youtube.com/@unit72784">UNIT 72784 YouTube channel</a>; many great videos, feature updates and use-case scenarios will be posted there very soon!</br>
+</h3> 
 
 
 ## About
