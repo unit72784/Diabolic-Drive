@@ -10,14 +10,14 @@ int rst_pin = 18;
 
 void setup()
 {
-  Serial1.begin(115000);
-  Serial.begin(115000);
+  digitalWrite(rst_pin,LOW);
+  digitalWrite(program_pin, LOW);
   pinMode(program_pin, OUTPUT);
   pinMode(rst_pin, OUTPUT);
-  digitalWrite(program_pin, LOW);
-  digitalWrite(rst_pin,LOW);
-  delay(800);
+  delay(300);
   digitalWrite(rst_pin,HIGH);
+  Serial1.begin(115000);
+  Serial.begin(115000);
 
   //while(!Serial);
 
