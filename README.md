@@ -20,6 +20,9 @@
 * [How Stealth can Diabolic Drive go ?](#how-stealth-can-diabolic-drive-go-)
 * [Features](#features)
 * [Firmware Supported](#firmware-supported)
+* [Flash Software](#flash-software)
+  + [Flash Atmega32u4](#flash-atmega32u4)
+  + [Flash ESP8266](#flash-esp8266)
 * [Programming Options](programming-options)
   + [ESP8266](#esp8266)
   + [ATMEGA32U4](#atmega32u4)
@@ -124,6 +127,25 @@ Diabolic Drive supports every firmware out there runs on the same 2 chips ( ATME
 - [ESPloitV2](https://github.com/exploitagency/ESPloitV2)
 - [WHID](https://github.com/whid-injector/WHID/)
 
+## Flash Software
+
+<b> I know I'm very bad at explaining things, but I will ensure I make a series of Youtube videos for a better explanation of how this process works very soon. :)
+Also, feel free to do yours, and I will put your links here.:) </b> 
+
+1. Download and install the [Arduino IDE](https://www.arduino.cc/en/software). ( recommended and tested [Version 2.1.1](https://github.com/arduino/arduino-ide/releases/tag/2.1.1) )
+2. Start the Arduino IDE, go to `File` > `Preferences`.
+3. At *Additional Board Manager ULRs* enter `https://raw.githubusercontent.com/unit72784/Diabolic-Drive/main/Diabolic_Drive_Custom_Board_Packages.json`.
+5. Go to `Tools` > `Board` > `Board Manager`, search for `Diabolic Drive` and install `Diabolic Drive AVR` and `Diabolic Drive ESP`.
+6. Download whatever supported firmware you prefer and flash it through the Diabolic Drive custom board packages with the instructions provided in the supported firmware repo. (not recommended though, as it won't give you any extra benefit beyond the firmware already loaded.)
+
+### Flash Atmega32u4
+If your Diabolic Drive runs the beta firmware that it shipped with, you need to first connect to it, then press the start button to expose the ATMEGA32U4 to your computer, as it's dormant by default with SPECTRE enabled.
+Don't choose Diabolic Drive Stealth mode unless you have a Diabolic Drive Programmer or an Arduino Pro Micro that is configured to work as an ISP, or you will lose the ability to upload sketches to and through the Atmega32u4.
+
+### Flash ESP8266
+Make sure your ATMEGA32U4 is exposed to your computer and it shows a COM port in the Windows Device Manager.
+Upload this sketch to your ATMEGA32U4, and after successful upload, you will notice that the Diabolic Drive ESP WIFI is no longer available as it has entered flashing mode.
+
 
 ## Programming Options
 ### ESP8266
@@ -155,7 +177,7 @@ Diabolic Drive supports every firmware out there runs on the same 2 chips ( ATME
 - [supremeDuck](https://github.com/michalmonday/supremeDuck) the most feature-rich one! Actually, I like how creative Michal Borowski is!
 ### on the Hardware Side
 - [HAK5](https://github.com/hak5darren/) If Rubber Ducky didn't exist, then Diabolic Drive would never exist! Actually, Darren is a godfather for all of these tools!
-- [Mike Grover](https://twitter.com/_MG_) miniaturization godfather!
+- [Mike Grover](https://twitter.com/_MG_) miniaturization inspiration!
 ### on the media, funding distribution side 
 [CrowdSupply](https://www.crowdsupply.com/) They are the best crowdfunding site and the best team! :heart:
 
