@@ -23,7 +23,7 @@
 * [Flash Software](#flash-software)
   + [Flash Atmega32u4](#flash-atmega32u4)
   + [Flash ESP8266](#flash-esp8266)
-* [Programming Options](programming-options)
+* [Programming Options](#programming-options)
   + [ESP8266](#esp8266)
   + [ATMEGA32U4](#atmega32u4)
   + [Access ATMEGA32U4 Bootloader](#access-atmega32u4-bootloader)
@@ -148,6 +148,7 @@ Upload this sketch to your ATMEGA32U4, and after successful upload, you will not
 
 
 ## Programming Options
+
 ### ESP8266
    + OTA ( Over The Air ) through its web interface
    + through ATMEGA32U4 acting as a Serial Bridge giving you full control over it in case something went wrong (also supports NodeMCU Firmware Programmer App )
