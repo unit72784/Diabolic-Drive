@@ -173,11 +173,7 @@ Designed to give you full flexibility, total control, and future-proof expansion
 <b> I know I'm very bad at explaining things, but I will ensure I make a series of Youtube videos for a better explanation of how this process works very soon. :)
 Also, feel free to do yours, and I will put your links here.:) </b> 
 
-1. Download and install the [Arduino IDE](https://www.arduino.cc/en/software). ( recommended and tested [Version 2.1.1](https://github.com/arduino/arduino-ide/releases/tag/2.1.1) )
-2. Start the Arduino IDE, go to `File` > `Preferences`.
-3. At *Additional Board Manager ULRs* enter `https://raw.githubusercontent.com/unit72784/Diabolic-Drive/main/Diabolic_Drive_Custom_Board_Packages.json`.
-5. Go to `Tools` > `Board` > `Board Manager`, search for `Diabolic Drive` and install `Diabolic Drive AVR` and `Diabolic Drive ESP`.
-6. Download whatever supported firmware you prefer and flash it through the Diabolic Drive custom board packages with the instructions provided in the supported firmware repo. (not recommended though, as it won't give you any extra benefit beyond the firmware already loaded.)
+## See Here : [New firmware installation instructions](https://github.com/unit72784/Diabolic-Drive/blob/main/New%20firmware%20installation%20instructions.md)
 
 ### Flash ATmega32U4
 
