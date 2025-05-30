@@ -1,10 +1,6 @@
 # Diabolic Drive
-<h1>:bangbang: Diabolic Drive default access point credentials are::bangbang:
-  <br>Wi-Fi SSID: DDv1</br>
-  Password: diabolic_drive 
-</h1>
 
-# :skull_and_crossbones: UNIT 72784 is intending to build unique software with a ton of features that's tailored specifically for Diabolic Drive. Get a very early Beta taste [here](https://www.youtube.com/watch?v=t5QmxH-HiyI). I believe it will be available by the end of Q1 or during Q2 2024. Stay tuned for it! and feel free to use any of the [already existing software](#firmware-supported) or stick to the beta software that comes preloaded with the already-shipped Diabolic Drives. until this happens. :) :skull_and_crossbones:
+# 💀 Game over. The final Diabolic Drive firmware is live — locked, loaded, and lethal.This isn’t just an update — it’s a full-scale upgrade built for offensive ops in the real world. Designed by UNIT 72784. One mind. Full control. For every hacker. You’ve waited long enough. Flash it. Wreck everything. Break what must be broken. 💀
 <p align="center">
   <a href="https://www.youtube.com/watch?v=nSBRwmqkTx8">
     <img alt="Diabolic Drive Teaser | A True Red Teaming Device That will Keep Evolving" src="https://i3.ytimg.com/vi/nSBRwmqkTx8/maxresdefault.jpg" width="640">
@@ -14,12 +10,13 @@
 </p>
 
 ---
+
+* [Firmware ChangeLog](#firmware-changelog)
 * [Usage](#usage)
 * [About](#about)
 * [Why Diabolic Drive ?](#why-diabolic-drive-)
 * [How Stealth can Diabolic Drive go ?](#how-stealth-can-diabolic-drive-go-)
 * [Features](#features)
-* [Firmware Supported](#firmware-supported)
 * [Flash Software](#flash-software)
   + [Flash Atmega32u4](#flash-atmega32u4)
   + [Flash ESP8266](#flash-esp8266)
@@ -30,6 +27,36 @@
 * [Technical Specifications](#technical-specifications)
 * [Credits](#credits)
 
+<h1>:bangbang: Diabolic Drive default access point credentials are::bangbang:
+  <br>Wi-Fi SSID: DDv1</br>
+  Password: diabolic_drive 
+</h1>
+
+# Firmware ChangeLog
+### 1. Dynamic Hardware ID Spoofing :
+Spoof the VID and PID of your Diabolic Drive over the Web UI using the USBID command.
+
+### 2. Side-Channel Exfiltration with Keystroke Reflection
+Capture and reflect keystrokes in real-time for stealthy data extraction.
+
+### 3. LangIgnore Mode
+No layout? No problem. Payloads are delivered consistently using ALT + numpad ASCII codes, bypassing language settings across all keyboard layouts.
+
+### 4. OS Detection
+Automatically detects the target operating system so you can adapt payloads accordingly.
+
+### 5. Configurable Random Typing Cadence
+Human-like keystroke timing to avoid behavioral detection systems.
+
+### 6. Revamped Web UI
+Completely refreshed interface — cleaner, faster, and more intuitive than ever.
+
+### 7. DNS Redirection with Captive Portal
+ensures all requests go to the onboard web server, displaying a captive portal instead of a “no internet” message. On mobile devices, it eliminates the need to disable mobile data to access the web interface.
+
+### 8. Stability & Performance
+Tons of under-the-hood bug fixes, stability improvements, and overall performance boosts.
+
 ## Usage
 1. Plug in your Diabolic Drive
 2. <b>Connect to the WiFi network `DDv1` with the default password `diabolic_drive`</b>
@@ -37,7 +64,12 @@
 4. Your Diabolic Drive comes preloaded with a test Ducky script, which I used in the testing phase to check if the Diabolic Drive key stroke injection works properly. No worries about it; it's just a powershell command that retrieves the credentials of the Diabolic Drive access point from your Windows machine if it's already saved and you have connected to it from your computer before.
 5. To access `Settings` along with other menus, click on the 3 horizontal bars icon (top right corner).
 
-<h3> :bangbang:The software that comes preloaded with the already-shipped Diabolic Drive is in a very early beta phase (built on <a href="https://github.com/SpacehuhnTech/WiFiDuck">WiFiDuck</a>) with some modifications to suit the Diabolic Drive and to integrate the Spectre POC feature just to get things up and running. After ensuring all Diabolic Drives are delivered to the backers, I will start working on the software side and adding features to it. :bangbang: 
+<h3> <del>
+‼️The software that comes preloaded with the already-shipped Diabolic Drive is in a very early beta phase (built on WiFiDuck) with some modifications to suit the Diabolic Drive and to integrate the Spectre POC feature just to get things up and running. After ensuring all Diabolic Drives are delivered to the backers, I will start working on the software side and adding features to it.‼️
+</del>
+  <br>
+  <br>
+✅ <strong>This is now complete. Final firmware is released.</strong>
   
 <br>Feel free to subscribe to the <a href="https://www.youtube.com/@unit72784">UNIT 72784 YouTube channel</a>; many great videos, feature updates and use-case scenarios will be posted there very soon!</br>
 </h3> 
@@ -45,7 +77,11 @@
 
 ## About
 
-Diabolic Drive is a Red Teaming and penetration testing tool that injects keystrokes wirelessly. In addition to its innocent look of a regular modern Flash drive, it also functions the same as it looks with a real capacity of 64 GB, making it stealthy and not suspicious when plugged in, giving it the ability to be used in countless social engineering scenarios, and introducing a new concept of bad USBs.
+Diabolic Drive isn’t just another HID injector — it’s a full-blown offensive implant wrapped in the body of a perfectly normal 64GB flash drive.
+
+Plug it in and it plays the part: real storage, clean profile, zero suspicion. But behind the scenes, it’s wirelessly waiting to strike — injecting keystrokes, executing payloads, and slipping past defenses in plain sight.
+
+Built for red teamers, crafted for covert ops, and born for social engineering. This isn’t a bad USB — it’s the next generation.
 
 <p align="center">
 <img alt="Diabolic-Drive-PCB" src="img/PCB.jpg" width="480" >
@@ -54,7 +90,17 @@ Diabolic Drive is a Red Teaming and penetration testing tool that injects keystr
 ---
 
 ## Why Diabolic Drive ?
-As for pluggable USB devices, what is the most common device that has a higher chance of being plugged in by a user? Putting a flash drive with a cable in comparison, for sure, a flash drive will easily win. Thinking about how many times I plugged a cable into my laptop, I only remember a few times from the Nokia Symbian phones era compared to how many times I plugged a real Flash Drive into it, which is near a million times! But taking only the form factor of an old flash drive might not trick an adult nowadays! So I implemented a real flash storage memory of 64 GB inside of the Diabolic Drive so that when you plug it in, you can interact with a real flash storage that can be used completely as a normal flash drive would be, giving you unlimited possible social engineering scenarios to trick the targeted client to do what is intended or planned by you to do.
+What’s the one USB device people still trust enough to plug in without thinking? A flash drive. No cables. No adapters. Just something simple, familiar, and everywhere.
+
+Think about it — when was the last time you plugged in a USB cable just for data? Now think about how often flash drives get used. Exactly.
+
+But just looking like a flash drive isn’t enough anymore — people are catching on. So Diabolic Drive doesn’t just look legit — it is legit. A full 64GB of real, usable storage. No gimmicks. No dead shells. Plug it in, and it behaves exactly like a standard thumb drive.
+
+That’s what makes it dangerous.
+
+It blends in, earns trust, and delivers payloads with surgical precision. Whether you’re baiting targets in the wild or slipping it into a physical pentest, Diabolic Drive is built for the job — engineered for social engineering.
+
+
 <p align="center">
 <img alt="Diabolic Drive vs genuine flash drive" src="img/Diabolic-Drive-vs-genuine-flash-drive-PCB.jpg" width="640" >
 </p>
@@ -99,33 +145,26 @@ As for pluggable USB devices, what is the most common device that has a higher c
 ![spectre thumbnail - Copy](https://github.com/unit72784/Diabolic-Drive/assets/129557291/276c66d2-7709-48eb-9f44-93244987189e)
 
 ## Features
-Despite the fact that Diabolic Drive uses very simple and relatively old hardware, it was designed to get the highest level of capabilities out of it with many stealthy features in mind and to give the user maximum openness, flexibility, control, and finally, being future-proofed.
-- **Features ready** :
-  + ATMEGA32U4 and ESP8266 are connected to each other over both Serial and I2C protocols which means that Diabolic Drive supports running almost every Open-Source    software out there that is built for the same 2 chips . ex: WIFI DUCK , WIFI DUCKY, ESPloitV2 ,WHID , supremeDuck and much more ! 
-  + Flash Storage supports reading , writing data while firing your payload wirelessly at the same time .
-  + Control over WIFI with any device, using a simple web interface .
-  + Hardware ID Cloning for the ATMEGA32u4 and the Flash storage  .. not on the fly though ! 
+Diabolic Drive runs on humble, battle-tested hardware — but don’t let that fool you.
+It’s been pushed to its absolute limits with stealth, control, and adaptability in mind.
+Designed to give you full flexibility, total control, and future-proof expansion, all without sacrificing speed or stealth.
+### ✅ Features Ready (Out of the Box)
 
-- **Features need custom software but are supported by the hardware .** ( these features are separately supported by the Open-Source Software mentioned in the Features ready section above )
+- **Dual Communication (Serial + I²C)**  
+  ATMEGA32U4 and ESP8266 are wired over both Serial *and* I²C, making it compatible with nearly every open-source firmware built for these two chips.  
+  > Supports: `WiFi Duck`, `WiFi Ducky`, `ESPloitV2`, `WHID`, `supremeDuck`, and more.
 
-   + OS detection, allowing it to work on Windows, Linux, and macOS with different behaviors.
-   + alt + numpad combinations on Windows (to type correct characters regardless of system language).
-   + mouse control
-   + ASCII characters
-   + Serial Data Exfiltration to the ESP memory .
- <p align="center">
-<img alt="Diabolic Drive in action" src="img/Diabolic-Drive-in-action.gif"  width="720">
-</p>
+- **Payloads + Storage — Simultaneously**  
+  Fire off keystrokes *and* read/write real data at the same time.  
+  Full 64GB flash storage is usable even while executing wireless payloads.
 
+- **Web-Based Control Interface**  
+  No apps, no drivers. Just connect over Wi-Fi and command everything from a clean, mobile-friendly Web UI.
 
-## Firmware Supported
-Diabolic Drive supports every firmware out there runs on the same 2 chips ( ATMEGA32U4 , ESP8266EX ) both Serial and I2C connection between the 2 chips is fully supported .. for example out of these open source firmware is : 
+- **Hardware ID Cloning**  
+  Clone the ATMEGA32U4 and Flash storage hardware IDs (VID, PID, etc.) for stealth.  
+  > ~~*Note: not supported live/on-the-fly — but fully programmable.*~~ **Now Dynamic Hardware ID Spoofing works over the Web UI using the USBID command.**
 
-- [WIFI DUCK](https://github.com/SpacehuhnTech/WiFiDuck)
-- [supremeDuck](https://github.com/michalmonday/supremeDuck)
-- [WIFI DUCKY](https://github.com/spacehuhn/wifi_ducky)
-- [ESPloitV2](https://github.com/exploitagency/ESPloitV2)
-- [WHID](https://github.com/whid-injector/WHID/)
 
 ## Flash Software
 
@@ -138,13 +177,30 @@ Also, feel free to do yours, and I will put your links here.:) </b>
 5. Go to `Tools` > `Board` > `Board Manager`, search for `Diabolic Drive` and install `Diabolic Drive AVR` and `Diabolic Drive ESP`.
 6. Download whatever supported firmware you prefer and flash it through the Diabolic Drive custom board packages with the instructions provided in the supported firmware repo. (not recommended though, as it won't give you any extra benefit beyond the firmware already loaded.)
 
-### Flash Atmega32u4
-If your Diabolic Drive runs the beta firmware that it shipped with, you need to first connect to it, then press the start button to expose the ATMEGA32U4 to your computer, as it's dormant by default with SPECTRE enabled.
-Don't choose Diabolic Drive Stealth mode unless you have a Diabolic Drive Programmer or an Arduino Pro Micro that is configured to work as an ISP, or you will lose the ability to upload sketches to and through the Atmega32u4.
+### Flash ATmega32U4
+
+If your Diabolic Drive is still running the beta firmware it shipped with, you'll need to:
+
+1. Connect to the device over Wi-Fi.
+2. Press the **Start** button in the Web UI to expose the ATmega32U4 to your computer.
+
+> ⚠️ By default, the ATmega32U4 is dormant due to **SPECTRE** mode.
+
+**Do not** enable *Diabolic Drive Stealth Mode* unless you have either:
+- a **Diabolic Drive Programmer**, or  
+- an **Arduino Pro Micro** configured as an ISP.
+
+Otherwise, you'll lose the ability to upload sketches to the ATmega32U4.
+
+---
 
 ### Flash ESP8266
-Make sure your ATMEGA32U4 is exposed to your computer and it shows a COM port in the Windows Device Manager.
-Upload this sketch to your ATMEGA32U4, and after successful upload, you will notice that the Diabolic Drive ESP WIFI is no longer available as it has entered flashing mode.
+
+To flash the ESP8266:
+
+1. Ensure the ATmega32U4 is exposed and shows up as a **COM port** in Windows Device Manager.
+2. Upload [the provided sketch](https://github.com/unit72784/Diabolic-Drive/blob/main/ESP8266_Programmer_via_ATMEGA32U4/ESP8266_Programmer_via_ATMEGA32U4.ino) to the ATmega32U4.
+3. Once the upload completes successfully, the Diabolic Drive Wi-Fi will disappear — indicating that the ESP has entered **flashing mode**.
 
 
 ## Programming Options
