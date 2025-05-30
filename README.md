@@ -1,6 +1,7 @@
 # Diabolic Drive
 
 # 💀 Game over. The final Diabolic Drive firmware is live — locked, loaded, and lethal.This isn’t just an update — it’s a full-scale upgrade built for offensive ops in the real world. Designed by UNIT 72784. One mind. Full control. For every hacker. You’ve waited long enough. Flash it. Wreck everything. Break what must be broken. 💀
+# [New firmware installation instructions are here.](https://github.com/unit72784/Diabolic-Drive/blob/main/New%20firmware%20installation%20instructions.md)
 <p align="center">
   <a href="https://www.youtube.com/watch?v=nSBRwmqkTx8">
     <img alt="Diabolic Drive Teaser | A True Red Teaming Device That will Keep Evolving" src="https://i3.ytimg.com/vi/nSBRwmqkTx8/maxresdefault.jpg" width="640">
@@ -27,12 +28,13 @@
 * [Technical Specifications](#technical-specifications)
 * [Credits](#credits)
 
-<h1>:bangbang: Diabolic Drive default access point credentials are::bangbang:
+<h1>:bangbang: Diabolic Drive default access point credentials are:
   <br>Wi-Fi SSID: DDv1</br>
   Password: diabolic_drive 
+  :bangbang:
 </h1>
 
-# Firmware ChangeLog
+# Firmware ChangeLog 
 ### 1. Dynamic Hardware ID Spoofing :
 Spoof the VID and PID of your Diabolic Drive over the Web UI using the USBID command.
 
