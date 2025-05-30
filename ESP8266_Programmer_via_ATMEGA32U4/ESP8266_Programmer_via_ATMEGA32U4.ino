@@ -5,39 +5,25 @@
  * programming the ESP8266 on Diabolic Drive by the ATMEGA32U4 Chip
  * Transmissions from the ESP are passed without any modification 
  ***************************************************/
-int program_pin = 20;
-int rst_pin = 18;
+const long BAUD = 115200;
 
-void setup()
-{
-  digitalWrite(rst_pin,LOW);
-  digitalWrite(program_pin, LOW);
-  pinMode(program_pin, OUTPUT);
-  pinMode(rst_pin, OUTPUT);
-  delay(300);
-  digitalWrite(rst_pin,HIGH);
-  Serial1.begin(115000);
-  Serial.begin(115000);
+const uint8_t PROG_PIN = 20;   // GPIO0 to GND for flashing
+const uint8_t RST_PIN  = 18;   // EN/RST
 
-  //while(!Serial);
+void setup() {
+  pinMode(PROG_PIN, OUTPUT);
+  pinMode(RST_PIN,  OUTPUT);
 
-  Serial.println("ESP8266 programmer ready.");
+  digitalWrite(PROG_PIN, LOW); // GPIO0 low  → flash-mode
+  digitalWrite(RST_PIN,  LOW); // hold reset
+  delay(10);
+  digitalWrite(RST_PIN,  HIGH); // release reset
+
+  Serial1.begin(BAUD);  // HW-UART to ESP8266
+  Serial .begin(BAUD);  // USB CDC to host
 }
 
-void loop()
-{
-  // pass data from ESP to host, if any
-  while(Serial1.available())
-  {
-    Serial.write((uint8_t)Serial1.read());
-  }
-
-  // pass data from host to ESP, if any
-  if(Serial.available())
-  {
-    while(Serial.available())
-    {
-      Serial1.write((uint8_t)Serial.read());
-    }
-  }
+void loop() {
+  while (Serial1.available()) Serial.write(Serial1.read());
+  while (Serial .available()) Serial1.write(Serial.read());
 }
