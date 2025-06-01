@@ -1,6 +1,6 @@
 # Diabolic Drive
 
-# 💀 Game over. The final Diabolic Drive firmware is live — locked, loaded, and lethal.This isn’t just an update — it’s a full-scale upgrade built for offensive ops in the real world. Designed by UNIT 72784. One mind. Full control. For every hacker. You’ve waited long enough. Flash it. Wreck everything. Break what must be broken. 💀
+# 💀 The final Diabolic Drive firmware is live — locked, loaded, and lethal.This isn’t just an update — it’s a full-scale upgrade built for offensive ops in the real world. Designed by UNIT 72784. One mind. Full control. For every hacker. You’ve waited long enough. Flash it. Wreck everything. Break what must be broken. 💀
 # [New firmware installation instructions are here.](https://github.com/unit72784/Diabolic-Drive/blob/main/New%20firmware%20installation%20instructions.md)
 <p align="center">
   <a href="https://www.youtube.com/watch?v=nSBRwmqkTx8">
