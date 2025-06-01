@@ -1,4 +1,4 @@
-# 🚀 Diabolic Drive Firmware Update Instructions
+# 🚀 Diabolic Drive New Firmware Update Instructions
 
 Hi everyone!  
 Here is a detailed guide on how to update your Diabolic Drive to the latest firmware release, available [here](https://github.com/unit72784/Diabolic-Drive/releases).
@@ -39,7 +39,8 @@ Here is a detailed guide on how to update your Diabolic Drive to the latest firm
 2. **Upload via Web UI**
    - Navigate to **Settings > Update** section in the Web UI.
    - Select the `.bin` file and hit **Upload**.
-
+   - If you see an “OK” message, your update was successful. ⚠️ Do not unplug your Diabolic Drive. ⚠️
+      It will automatically restart and begin broadcasting its Wi-Fi access point once the update is complete.
 3. **Recovery (If ESP Flash Fails)**
    - Download this recovery sketch:  
      [ESP8266 Programmer via ATmega32u4](https://github.com/unit72784/Diabolic-Drive/tree/main/ESP8266_Programmer_via_ATMEGA32U4)
